@@ -18,17 +18,17 @@ sites/all/themes/README.txt
 
 #for non core developer
 #only include "sites" folder without exclusions before
-cron.php
-index.php
-install.php
-update.php
-xmlrpc.php
-/includes
-/misc
-/modules     
-/profiles
-/scripts
-/themes
-
-/html/video-crew/video
-/"Database Backup"
+#cron.php
+#index.php
+#install.php
+#update.php
+#xmlrpc.php
+#/includes
+#/misc
+#/modules     
+#/profiles
+#/scripts
+#/themes
+#
+#/html/video-crew/video
+#/"Database Backup"
