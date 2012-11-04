@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #sites/default/files
 #sites/default/private
 sites/default/settings.php
@@ -19,8 +18,8 @@ sites/all/themes/README.txt
 
 *.DS_Store
 
-for non core developer
-only include "sites" folder without exclusions before
+#for non core developer
+#only include "sites" folder without exclusions before
 cron.php
 index.php
 install.php
