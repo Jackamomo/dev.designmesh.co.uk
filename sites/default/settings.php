@@ -207,14 +207,34 @@ $databases = array (
     array (
       'database' => 'designmesh3',
       'username' => 'root',
-      'password' => '',
+      'password' => 'root',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
     ),
   ),
-); 
+);
+
+/*
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'db134977_designmesh3',
+      'username' => 'db134977_jack',
+      'password' => 'sNufkin24_mt',
+      'host' => 'internal-db.s134977.gridserver.com',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
+*/
+
+
 
 /**
  * Access control for update.php script.
