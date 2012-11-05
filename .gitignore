@@ -1,24 +1,8 @@
-sites/default/files
-sites/default/private
-sites/default/settings.php
+sites/*/files
+sites/*/private
+sites/*/settings.php
 cache/
 files/
-/README.txt
-/CHANGELOG.txt
-/COPYRIGHT.txt
-/INSTALL*.txt
-/LICENSE.txt
-/MAINTAINERS.txt
-/UPGRADE.txt
-robots.txt
-sites/all/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
-.htaccess
-
-*.DS_Store
-.gitignore
-/.gitignore
 
 ##for non core developer
 ##only include "sites" folder without exclusions before
@@ -33,5 +17,9 @@ sites/all/themes/README.txt
 #/profiles
 #/scripts
 #/themes
-#/html/video-crew/video
-#/"Database Backup"
+
+/html/video-crew/video
+/"Database Backup"
+*.DS_Store
+.gitignore
+.htaccess
