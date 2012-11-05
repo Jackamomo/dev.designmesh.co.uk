@@ -20,6 +20,6 @@ xmlrpc.php
 
 /html/video-crew/video
 /"Database Backup"
-/*.DS_Store
+*.DS_Store
 /.gitignore
-/.htaccess
+.htaccess
