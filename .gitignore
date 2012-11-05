@@ -6,20 +6,20 @@ files/
 
 ##for non core developer
 ##only include "sites" folder without exclusions before
-#cron.php
-#index.php
-#install.php
-#update.php
-#xmlrpc.php
-#/includes
-#/misc
-#/modules     
-#/profiles
-#/scripts
-#/themes
+cron.php
+index.php
+install.php
+update.php
+xmlrpc.php
+/includes
+/misc
+/modules     
+/profiles
+/scripts
+/themes
 
 /html/video-crew/video
 /"Database Backup"
-*.DS_Store
-.gitignore
-.htaccess
+/*.DS_Store
+/.gitignore
+/.htaccess
