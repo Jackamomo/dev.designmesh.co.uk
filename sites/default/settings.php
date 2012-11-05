@@ -201,7 +201,6 @@
  * @endcode
  */
 
-/*
 $databases = array (
   'default' => 
   array (
@@ -209,7 +208,7 @@ $databases = array (
     array (
       'database' => 'designmesh3',
       'username' => 'root',
-      'password' => 'root',
+      'password' => '',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
@@ -217,7 +216,7 @@ $databases = array (
     ),
   ),
 );
-*/
+/*
 
 $databases = array (
   'default' => 
@@ -234,6 +233,7 @@ $databases = array (
     ),
   ),
 );
+*/
 
 
 
