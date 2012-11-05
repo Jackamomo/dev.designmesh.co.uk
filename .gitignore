@@ -17,7 +17,7 @@ sites/all/themes/README.txt
 .htaccess
 
 *.DS_Store
-/.gitignore
+.gitignore
 
 #for non core developer
 #only include "sites" folder without exclusions before
