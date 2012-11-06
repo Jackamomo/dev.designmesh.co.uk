@@ -215,7 +215,7 @@ h2.block-title /* Block title */ {
 .jcarousel-skin-default .jcarousel-next-horizontal {
   position: absolute;
   top: 90px;
-  right: -40px;
+  right: -60px;
   background:url(../images/big-arrow-right.gif) no-repeat;
   width:27px;
   height:27px;
@@ -228,7 +228,7 @@ h2.block-title /* Block title */ {
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   position: absolute;
   top: 90px;
-  left: -50px;
+  left: -60px;
   background:url(../images/big-arrow-left.gif) no-repeat;
   width:27px;
   height:27px;
@@ -289,6 +289,15 @@ ul.jcarousel-view--hero--block {
  *
  * 
 */
+
+/* all proj's slider */
+.region-footer #block-views-thumbnails-block .jcarousel-skin-default .jcarousel-next-horizontal {
+  right:-92px;
+}
+
+.region-footer #block-views-thumbnails-block .jcarousel-skin-default .jcarousel-prev-horizontal {
+  left:-92px;
+}
 
 .jcarousel-view--thumbnails--block  {
   
@@ -368,7 +377,7 @@ ul.jcarousel-view--hero--block {
 
 #block-views-thumbnails-block .jcarousel-next,
 #block-views-thumbnails-block .jcarousel-prev {
-  display:none;
+  top:24px;
 }
 
 #block-views-thumbnails-block .jcarousel-skin-default .jcarousel-clip-horizontal {

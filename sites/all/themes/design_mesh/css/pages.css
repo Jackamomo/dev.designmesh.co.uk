@@ -1339,7 +1339,16 @@ ul.links li {
   border:#e0e0e0 solid 9px;
 }
 
-.page-taxonomy h2.node-title:hover a:hover {
+
+.page-taxonomy .node .content {
+  opacity:0;
+}
+
+.page-taxonomy .node:hover .content {
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  opacity:1;
 }
 
 .page-taxonomy h2.node-title a:hover {
