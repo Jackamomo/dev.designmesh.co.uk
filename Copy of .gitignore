@@ -1,0 +1,15 @@
+#ignore these
+sites/*/files
+sites/*/private
+sites/default/settings.php
+cache/
+files/
+
+/html/video-crew/video
+/"Database Backup"
+.DS_Store
+.gitignore
+.htaccess
+.gitignore
+
+sites/default/settings.php

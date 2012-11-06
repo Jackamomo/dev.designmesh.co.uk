@@ -838,7 +838,7 @@ ul#main-links li {
   padding-right:110px;
   font-size:2.2em;
   letter-spacing:-.05em;
-  color:#555;
+  color:#333;
 }
 
 .no-sidebars #content {
@@ -1286,7 +1286,7 @@ ul.links li {
 }
 
 .page-taxonomy-term.section-skills #content .content p /* skills pages */ {
-  font-size:1.2em;
+  font-size:1.1em;
   line-height:1.4em;
   color:#888;
   margin-left:10px;
@@ -1327,7 +1327,7 @@ ul.links li {
 .page-taxonomy h2.node-title a {
   position:absolute;
   width:225px;
-  height:137px;
+  height:138px;
   top:0;
   left:0;
   text-decoration:none;
@@ -1478,6 +1478,11 @@ ul.links li {
   padding-right:.5em;
   width:auto;
   font-weight:normal;
+  line-height: 1.3em;
+}
+
+.region-sidebar-first .block .content ul li {
+  font-size:1em;
 }
 
 .page-taxonomy .region-sidebar-first h2.block-title:after {
@@ -1486,12 +1491,16 @@ ul.links li {
 
 /*
  *
- * Skills thumbnails
+ * Skills pages
  *
  *
  */
 
 .section-skills .region-sidebar-first {
+  margin-bottom:0;
+}
+
+.section-skills .region-sidebar-first .block-views {
   margin-bottom:0;
 }
 
