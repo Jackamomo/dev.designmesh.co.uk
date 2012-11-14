@@ -53,23 +53,6 @@ body {
 }
 
 /*
- *
- *
- * Responsive
- *
- *
- *
- */
-
-@media (max-width:500px) {
-  #page-wrapper, .region-bottom {
-    margin:0;
-    min-width:535px;
-    background:green;
-  }
-}
-
-/*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
@@ -1234,7 +1217,6 @@ ul.links li {
 }
 
 .views-field-field-thumb-big a img {
-  border:#ececec solid 9px;
 }
 
 .page-views .views-row:hover .views-field-title .field-content a {
@@ -1262,16 +1244,18 @@ ul.links li {
 
 .not-front.page-taxonomy-term .node:hover {}
 
+.not-front.page-taxonomy-term .node:hover img {}
+
 .not-front.page-taxonomy-term .node img {
-  border:#f1f1f1 solid 9px !important;
+  border:#f1f1f1 solid 9px;
   z-index:0;
 }
 .not-front.page-taxonomy-term .node a img:hover {
   border-color:#f38 !important;
   z-index:1;
-}
-
-.not-front.page-taxonomy-term .node:hover img {
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
 }
 
 .not-front.page-taxonomy-term #content .node {
@@ -1322,6 +1306,7 @@ ul.links li {
   width:100%;
   display:block;
   height:45px;
+  font-size:1.3em;
 }
 
 .page-taxonomy h2.node-title a {
@@ -1382,10 +1367,12 @@ ul.links li {
 .not-front.page-taxonomy-term .node:hover .field-name-body,
 .not-front.page-taxonomy-term .node:hover .field-name-field-cat {
   opacity:1;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
 }
 
 /* thumb cat list */
-
 .not-front.page-taxonomy-term #content .node .content .field-name-field-cat .field-items {
   position:absolute;
   width:100%;
@@ -1712,9 +1699,13 @@ ul.links li {
   color:#5b5b5b;
   margin-top:2px;
 }
+
 /*
+ * 
  * Page bottom
+ * 
  */
+
 .bottom-rule {
   width:100%;
   float:left;
@@ -1742,7 +1733,7 @@ ul.links li {
   padding-top:15px;
   margin-left:40px;
   padding-bottom:15px;
-  width100%;
+  width:100%;
 }
 
 .region-bottom p {

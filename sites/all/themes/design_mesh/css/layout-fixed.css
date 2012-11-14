@@ -202,3 +202,26 @@ body {
   overflow-y: hidden;
 }
 */
+
+/*
+ *
+ *
+ * Responsive
+ *
+ *
+ *
+ */
+
+@media handheld {
+  .jcarousel-view--hero--block li .views-field-title {
+    opacity:1;
+  }
+}
+
+@media (max-width:500px) {
+  #page-wrapper, .region-bottom {
+    margin:0;
+    min-width:535px;
+    background:green;
+  }
+}

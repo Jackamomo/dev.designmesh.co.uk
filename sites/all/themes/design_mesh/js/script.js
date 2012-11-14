@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
   });
 });
 */
-
+/*
 jQuery(document).ready(function() {
     jQuery(".views-field-title").hide();
     jQuery('.jcarousel-item-horizontal').mouseenter(function() {
@@ -21,3 +21,4 @@ jQuery(document).ready(function() {
   });
 
 });
+*/

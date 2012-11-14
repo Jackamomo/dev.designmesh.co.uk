@@ -168,12 +168,13 @@ h2.block-title /* Block title */ {
   margin:0;
 }
 
-#block-views-hero-block .jcarousel-skin-default .jcarousel-item {
-  width:251px;
-  height:162px;
-  position:relative;
-  margin:15px 2px 15px 10px;
-  border:none;
+#block-views-hero-block .jcarousel-skin-default li.jcarousel-item {
+  position: relative;
+  width: 252px;
+  height: 162px;
+  float: left;
+  margin: 0 10px 16px 0;
+  border:0;
 }
 
 #block-views-hero-block .jcarousel-skin-default .jcarousel-clip-horizontal {
@@ -181,7 +182,7 @@ h2.block-title /* Block title */ {
 }
 
 #block-views-hero-block .jcarousel-skin-default .jcarousel-item img {
-  border:9px #f1f1f1 solid;
+  border:#f1f1f1 solid 9px;
 }
 
 .jcarousel-skin-default .jcarousel-item:hover {
@@ -198,7 +199,6 @@ h2.block-title /* Block title */ {
 
 .view-id-hero .jcarousel-skin-default .jcarousel-clip-horizontal {
   height:165px;
-  padding-bottom:-15px;
 }
 
 .jcarousel-skin-default .jcarousel-container-horizontal {
@@ -239,56 +239,124 @@ h2.block-title /* Block title */ {
 }
 
 ul.jcarousel-view--hero--block {
-  margin-top:-12px !important;
-  margin-left:-12px !important;
-  overflow:visible !important;
 }
 
-.view-hero .jcarousel-skin-default .views-field-title {
-  position:absolute;
-  bottom:0;
-  text-align:left;
-  background:white;
-  opacity:0.9;
-  font-family:helvetica, sans-serif;
-  font-weight:bold;
+/*
+ *
+ *
+ * hero block rollovers
+ *
+ *
+ */
+
+.view-hero .jcarousel-skin-default li {
+  z-index:2;
+}
+
+.view-hero .jcarousel-skin-default li:hover {
+  background:#fff;
 }
 
 .view-hero .jcarousel-skin-default .views-field-title a {
-  padding-bottom:10px;
-  padding-top:13px;
-  padding-left:13px;
-  padding-right:30px;
-  width:190px;
-  height:121px;
+  position:absolute;
+  width:225px;
+  height:138px;
+  top:0;
+  left:0;
   text-decoration:none;
   color:#555;
-  display:block;
-  background-image:url(../images/arr-sm.jpg);
-  background-repeat:no-repeat;
-  background-position:200px 13px;
+  background:url(../images/arr-sm.jpg) no-repeat 200px 8px;
   background-color:#fff;
-  font-size:14px;
-  position:absolute;
-  left:9px;
-  bottom:9px;
+  padding:7px 0 0 9px;
+  margin:9px;
+}
+
+.view-hero .jcarousel-skin-default li.jcarousel-item:hover a {
+  background-image:url(../images/arr-sm-hover.jpg);
+  background-repeat:no-repeat;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+}
+
+.view-hero .jcarousel-skin-default .views-field-field-thumb-big {
+  z-index:-2;
+}
+
+.jcarousel-view--hero--block li .views-field-title,
+.jcarousel-view--hero--block li .views-field-body,
+.jcarousel-view--hero--block li .views-field-field-cat {
   opacity:0;
 }
 
-.view-hero .jcarousel-skin-default .jcarousel-item:hover a {
-  background-image:url(../images/arr-sm-hover.jpg);
+
+.jcarousel-view--hero--block li:hover .views-field-title,
+.jcarousel-view--hero--block li:hover .views-field-body,
+.jcarousel-view--hero--block li:hover .views-field-field-cat {
   opacity:1;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
 }
 
+.view-hero .jcarousel-skin-default .views-field-title {
+  position:absolute;
+  width:225px;
+  top:0;
+  left:0;
+  background:#fff;
+  font-family:helvetica, sans-serif;
+  font-weight:bold;
+  text-align:left;
+  z-index:0;
+}
+
+.jcarousel-view--hero--block li:hover .views-field-field-thumb-big {
+  z-index:-2;
+}
+
+.jcarousel-view--hero--block li .views-field-body p {
+  padding:0;
+  margin:0;
+  position:absolute;
+  top:41px;
+  left:18px;
+  padding-right:16px;
+  font-size:.9em;  
+  line-height:1.5em;
+  text-align:left;
+}
+
+.jcarousel-view--hero--block li .views-field-body p:after {
+  content:"...";
+}
+
+/* thumb cat list */
+.jcarousel-view--hero--block li .views-field-field-cat .item-list {
+  position:absolute;
+  width:100%;
+  bottom:16px;
+  left:16px;
+}
+
+.jcarousel-view--hero--block li .views-field-field-cat .item-list li {
+  float:left;
+  margin-right:.25em;
+  border-radius:5px;
+  background-color:#eee;
+  color:#aaa;
+  padding:0px .75em 0px;
+  font-size:.75em;
+  line-height: 1.75em;
+}
+
 /*
+ *
  *
  * Latest thumbnail slider
  *
  * 
-*/
+ */
 
 /* all proj's slider */
 .region-footer #block-views-thumbnails-block .jcarousel-skin-default .jcarousel-next-horizontal {
