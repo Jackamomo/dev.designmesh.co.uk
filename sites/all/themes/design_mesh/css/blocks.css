@@ -250,7 +250,7 @@ ul.jcarousel-view--hero--block {
  */
 
 .view-hero .jcarousel-skin-default li {
-  z-index:2;
+  z-index:0;
 }
 
 .view-hero .jcarousel-skin-default li:hover {
@@ -269,6 +269,7 @@ ul.jcarousel-view--hero--block {
   background-color:#fff;
   padding:7px 0 0 9px;
   margin:9px;
+  z-index:2;
 }
 
 .view-hero .jcarousel-skin-default li.jcarousel-item:hover a {
@@ -287,6 +288,7 @@ ul.jcarousel-view--hero--block {
 .jcarousel-view--hero--block li .views-field-body,
 .jcarousel-view--hero--block li .views-field-field-cat {
   opacity:0;
+  z-index:1;
 }
 
 
@@ -312,7 +314,7 @@ ul.jcarousel-view--hero--block {
 }
 
 .jcarousel-view--hero--block li:hover .views-field-field-thumb-big {
-  z-index:-2;
+  z-index:-1;
 }
 
 .jcarousel-view--hero--block li .views-field-body p {

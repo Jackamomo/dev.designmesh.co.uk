@@ -48,9 +48,7 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
 
-  <link rel="image_src" href="http://www.designmesh.co.uk/sites/all/themes/design_mesh/images/logo-lower-big.jpg" / >
-  <link rel="image_src" href="http://www.designmesh.co.uk/sites/all/themes/design_mesh/images/home-crest.jpg" / >
-  <link rel="image_src" href="http://www.designmesh.co.uk/sites/all/themes/design_mesh/images/footer-circle-logo-pink.png" / >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta property="og:image" content="http://www.designmesh.co.uk/sites/all/themes/design_mesh/images/home-crest.jpg" />
   <?php print $styles; ?>
   <?php print $scripts; ?>
