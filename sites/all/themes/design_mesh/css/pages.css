@@ -1340,17 +1340,6 @@ ul.links li {
 }
 
 
-.page-taxonomy .node .content {
-  opacity:0;
-}
-
-.page-taxonomy .node:hover .content {
-  -webkit-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-  opacity:1;
-}
-
 .page-taxonomy h2.node-title a:hover {
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
@@ -1887,4 +1876,87 @@ body {
   text-align:left;
   width:60%;
   line-height:1.3em;
+}
+
+
+/* about page skills bar charts */
+ul.skills {
+  list-style-type:none;
+  padding:0 !important;
+  margin:0 !important;
+  overflow:hidden;
+}
+
+ul.skills li {
+  margin:0 !important;
+  padding:0 !important;
+  list-style-type:none;
+  height:245px;
+  position:relative;
+  width:70px;
+  float:left;
+  margin-right:8px !important;
+  overflow:visible;
+  text-align:center;
+  background:none !important;
+}
+
+ul.skills li:hover .label {
+  color:#333;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+}
+
+ul.skills span {
+  float:none !important;
+  width:70px !important;
+  text-align:center;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+ul.skills li a.bar {
+  position:absolute;
+  bottom:55px;
+  left:0;
+  width:70px;
+  height:160px;
+  border-radius:5px;
+  background-color:#ddd;
+  color:#424242;
+}
+
+ul.skills li a.bar span.bar-text {
+  position:absolute;
+  padding:0 !important;
+  margin:0;
+  bottom:5px;
+  left:0;
+  color:#444 !important;
+  font-size:.9em !important;
+  width:70px;
+  text-align:center !important;
+}
+
+ul.skills li a.bar:hover span.bar-text {
+  color:#fff !important;
+}
+
+ul.skills li a.bar:hover {
+  background-color:#f38;
+  color:#fff;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+}
+
+ul.skills li p.label {
+  padding:0;
+  margin:0;
+  position:absolute;
+  top:200px;  
+  width:70px;
+  font-size:.9em; 
+  color:#ccc;
 }
