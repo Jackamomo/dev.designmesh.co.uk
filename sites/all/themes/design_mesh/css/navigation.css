@@ -268,7 +268,7 @@ ul.menu li.leaf {
   line-height:1.3em;
 }
 
-.region-sidebar-first ul.menu a:hover {
+.region-sidebar-first .content a:hover {
   color:#fb3289;
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
@@ -279,6 +279,7 @@ ul.menu li.leaf {
   font-size:.85em; 
 }
 
+.region-sidebar-first .block .content .views-row,
 .region-sidebar-first .block .content ul li {
   padding-left:2px;
   line-height:1.3em;
