@@ -132,6 +132,7 @@ li.comment_forbidden {
   color:#666;
 }
 
+.field-name-field-project-client,
 .field-name-field-skills {
   float:left;
   width:100%;

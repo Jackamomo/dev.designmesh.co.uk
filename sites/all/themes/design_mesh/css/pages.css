@@ -1566,6 +1566,7 @@ ul.links li {
   width:225px;
   margin-left:40px;
 }
+
 #block-block-9 h2, /* services */
 #block-views-c523dbb8734681c2eb7572581353884e h2,
 #block-block-10 h2,
@@ -1617,10 +1618,6 @@ ul.links li {
 
 #block-menu-menu-info h2.block-title {
   background-image:url(../images/tiny-footer-icon-info.png);
-}
-
-#block-menu-menu-info {
-  
 }
 
 #block-views-thumbnails-block h2.block-title {

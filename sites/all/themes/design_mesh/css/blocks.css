@@ -11,7 +11,7 @@
 
 .block-views {
   float:left;
-  widtH:100%;
+  widtH:100%; /* make side menus's line up horizontally */
 }
 
 .block.first /* The first block in the region */ {
