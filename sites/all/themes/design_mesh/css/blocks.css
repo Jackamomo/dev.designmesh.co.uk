@@ -11,6 +11,7 @@
 
 .block-views {
   float:left;
+  widtH:100%;
 }
 
 .block.first /* The first block in the region */ {

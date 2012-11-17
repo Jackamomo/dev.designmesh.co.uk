@@ -816,7 +816,7 @@ ul#main-links li {
  */
 
 .not-front h1.title {
-  margin:0 0 .2em;
+  margin:.2em 0 .5em;
   padding-bottom:0;
   padding-right:110px;
   font-size:2.2em;
@@ -1876,6 +1876,9 @@ ul.skills {
   padding:0 !important;
   margin:0 !important;
   overflow:hidden;
+  margin-bottom:.5em !important;
+  padding-bottom:2em !important;
+  border-bottom:1px solid #ccc;
 }
 
 ul.skills li {
@@ -1942,6 +1945,18 @@ ul.skills li a.bar:hover {
   -moz-transition: all 250ms linear;
 }
 
+ul.skills li a.photoshop:hover {
+  background-color:#0177c6;
+}
+
+ul.skills li a.illustrator:hover {
+  background-color:#f08d00;
+}
+
+ul.skills li a.indesign:hover {
+  background-color:#c7598c;
+}
+
 ul.skills li p.label {
   padding:0;
   margin:0;
@@ -1950,4 +1965,32 @@ ul.skills li p.label {
   width:70px;
   font-size:.9em; 
   color:#ccc;
+}
+
+.section-about #content .content ul.icon-list {
+  margin:0;
+  padding:0;
+  width:100%;
+  float:left;
+}
+
+.section-about #content .content  ul.icon-list li {
+  background:none;
+  margin:1em 1em 0 0;
+  padding:0;
+  text-align:center;
+  float:left;
+  font:bold 1.1em arial;
+}
+
+.section-about #content .content  ul.icon-list li a {
+  color:#666;
+}
+
+.section-about #content .content  ul.icon-list li a:hover {
+  color:#f38;
+}
+
+.section-about #content .content  ul.icon-list li p {
+  color:#333;
 }
