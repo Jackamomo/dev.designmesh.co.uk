@@ -52,7 +52,8 @@ stylesheets[print][]      = css/print.css
 ; is based on the CSS3 Media queries. http://www.w3.org/TR/css3-mediaqueries/
 
 stylesheets[handheld][]  = css/mobile.css
-stylesheets[only screen and (max-device-width: 480px)][] = css/iphone.css
+;stylesheets[only screen and (max-device-width: 480px)][] = css/iphone.css
+stylesheets[only screen and (max-width: 480px)][] = css/iphone.css
 
 ; Add a blank stylesheet for easy customization.
 
@@ -62,8 +63,8 @@ stylesheets[all][]        = css/fresh.css
 
 ; To target all versions of IE with an ie.css, uncomment the following line:
 stylesheets-conditional[IE][all][]       = css/ie.css
-stylesheets-conditional[lte IE 7][all][]  = css/ie7.css
-stylesheets-conditional[lte IE 6][all][]  = css/ie6.css
+;stylesheets-conditional[lte IE 7][all][]  = css/ie7.css
+;stylesheets-conditional[lte IE 6][all][]  = css/ie6.css
 
 
 
