@@ -1080,8 +1080,7 @@ ul.links li {
 
 .not-front.page-taxonomy-term #content #block-system-main {
   float:left;
-  margin:0 -25px 0 -25px;
-  padding:10px 25px 0;
+  padding:10px 0 0;
   margin-right:-80px;
   position:relative;
 }
@@ -1317,7 +1316,7 @@ ul.links li {
   left:0;
   text-decoration:none;
   color:#555;
-  background:url(../images/arr-sm.jpg) no-repeat 200px 8px;
+  background:url(../images/arr-sm-hover.jpg) no-repeat 200px 8px;
   font-size:.8em;
   padding:7px 0 0 9px;
   z-index:1;
@@ -1343,7 +1342,7 @@ ul.links li {
   width:252px;
   height:162px;
   float:left;
-  margin:0 7px 16px 9px;
+  margin:0 5px 16px 9px;
 }
 
 .not-front.page-taxonomy-term .node:hover {
@@ -1990,4 +1989,26 @@ ul.skills li p.label {
 
 .section-about #content .content  ul.icon-list li p {
   color:#333;
+}
+
+#content .content ul.skills-container  {
+  padding:2em 0 0;
+}
+
+.node .content .skills-container li {
+  background:none;
+  margin-right:2.5%;
+  width:45%;
+  float:left;
+  padding:0;
+}
+
+.node .content .skills-container h4 {
+  color:#333;
+  margin-bottom:.25em;
+}
+
+.node .content .skills-container p {
+  padding:0 1em 1em 0;
+  font-size:.8em;
 }

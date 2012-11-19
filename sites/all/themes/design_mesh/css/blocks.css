@@ -174,8 +174,12 @@ h2.block-title /* Block title */ {
   width: 252px;
   height: 162px;
   float: left;
-  margin: 0 10px 16px 0;
+  margin: 0 10px 0 0;
   border:0;
+}
+
+#block-views-hero-block .jcarousel-skin-default li.jcarousel-item:hover {
+  background:#fff;
 }
 
 #block-views-hero-block .jcarousel-skin-default .jcarousel-clip-horizontal {
@@ -183,6 +187,7 @@ h2.block-title /* Block title */ {
 
 #block-views-hero-block .jcarousel-skin-default .jcarousel-item img {
   border:#f1f1f1 solid 9px;
+  z-index:0;
 }
 
 .jcarousel-skin-default .jcarousel-item:hover {
@@ -257,7 +262,13 @@ ul.jcarousel-view--hero--block {
 }
 
 .view-hero .jcarousel-skin-default .views-field-title {
-  background-color:#fff;
+  opacity:0;
+}
+
+.jcarousel-view--hero--block li .views-field-body,
+.jcarousel-view--hero--block li .views-field-field-cat {
+  opacity:0;
+  z-index:2;
 }
 
 .view-hero .jcarousel-skin-default .views-field-title a {
@@ -270,7 +281,7 @@ ul.jcarousel-view--hero--block {
   color:#555;
   background:url(../images/arr-sm.jpg) no-repeat 200px 8px;
   padding:7px 0 0 9px;
-  margin:9px;
+  z-index:1;
 }
 
 .view-hero .jcarousel-skin-default li.jcarousel-item:hover a {
@@ -285,18 +296,12 @@ ul.jcarousel-view--hero--block {
   z-index:-1;
 }
 
-.view-hero .jcarousel-skin-default .views-field-title,
-.jcarousel-view--hero--block li .views-field-body,
-.jcarousel-view--hero--block li .views-field-field-cat {
-  opacity:0;
-  z-index:1;
-}
-
 .view-hero .jcarousel-skin-default .views-field-title {
   position:absolute;
-  width:225px;
-  top:0;
-  left:0;
+  width:234px;
+  height:144px;
+  top:9px;
+  left:9px;
   font-family:helvetica, sans-serif;
   font-weight:bold;
   text-align:left;
@@ -374,7 +379,7 @@ ul.jcarousel-view--hero--block {
 
 #block-views-thumbnails-block {
   float:left;
-  padding:20px 0 30px;
+  padding:15px 0 30px;
   width:100%;
   background:#fff;
 }
@@ -446,7 +451,7 @@ ul.jcarousel-view--hero--block {
 
 #block-views-thumbnails-block .jcarousel-next,
 #block-views-thumbnails-block .jcarousel-prev {
-  top:24px;
+  top:25px;
 }
 
 #block-views-thumbnails-block .jcarousel-skin-default .jcarousel-clip-horizontal {
