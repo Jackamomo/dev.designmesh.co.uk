@@ -260,7 +260,6 @@ ol ol ol    { list-style-type: decimal; }
 #content .content ul {
   padding-left:10px;
   position:relative;
-  margin-bottom:1.5em;
 }
 
 #content .content ul ul {

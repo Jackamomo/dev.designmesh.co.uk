@@ -816,7 +816,7 @@ ul#main-links li {
  */
 
 .not-front h1.title {
-  margin:.2em 0 .5em;
+  margin:.2em 0 0;
   padding-bottom:0;
   padding-right:110px;
   font-size:2.2em;
@@ -830,6 +830,9 @@ ul#main-links li {
   border:none;
 }
 
+.not-front #content {
+  padding-left:0;
+}
 
 #content {
   float:right;

@@ -139,6 +139,11 @@ li.comment_forbidden {
   margin-bottom:2px;
   margin-top:10px;
 }
+
+.field-name-field-project-client {
+  margin-top:0;
+}
+
 .field-name-field-project-client,
 .field-name-field-skills {
   font-size:.85em;
@@ -236,11 +241,14 @@ li.comment_forbidden {
   margin-bottom:15px;
   margin-top:45px;
   z-index:-1;
+  height:auto !important;
+  padding-bottom:0 !important; /*resize slideshow wrapper for different heights */
 }
 
 .field-slideshow-slide {
   margin-top:15px;
-  position:relative;
+  position:relative !important;
+  height:auto !important;
 }
 
 .field-slideshow-slide:first-child {

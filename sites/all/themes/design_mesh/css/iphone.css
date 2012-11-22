@@ -95,25 +95,41 @@ body {
 }
 
 ul.jcarousel-view--hero--block {
-  width:300px !important;
-  height:350px !important;
+  width:260px !important;
+  height:510px !important;
 }
 
 #block-views-hero-block .jcarousel-skin-default .jcarousel-clip-horizontal {
-  width:300px !important;
-  height:350px !important;
+  width:260px !important;
+  height:510px !important;
 }
 
-.jcarousel-view--hero--block li .views-field-title {
+.block-views {
+  width:auto;
+}
+
+#block-views-hero-block .jcarousel-skin-default li.jcarousel-item {
+ margin-bottom:10px; 
+}
+
+.view-hero .jcarousel-skin-default .views-field-title {
   opacity:1;
+  height:38px;
+}
+
+.not-front.page-taxonomy-term .node .node-title {
+  opacity:1;
+  background-color:#fff;
+}
+
+.view-hero .jcarousel-skin-default .views-field-title:hover {
+  height:144px;
 }
 
 .view-hero .jcarousel-skin-default li.jcarousel-item a {
-  height:30px;
 }
 
 .view-hero .jcarousel-skin-default li.jcarousel-item:hover a {
- height:138px;
 }
 
 .jcarousel-view--hero--block li .views-field-title a {
@@ -182,6 +198,7 @@ ul.jcarousel-view--hero--block {
 
 .not-front.page-node #header {
   width:100%;
+  margin:0;
 }
 
 #content {
@@ -200,6 +217,7 @@ ul.jcarousel-view--hero--block {
 
 .not-front h1.title {
   padding-right:0;
+  margin:0;
 }
 
 .field-name-body {
@@ -210,17 +228,22 @@ ul.jcarousel-view--hero--block {
   width:100%;
 }
 
-.field-slideshow-wrapper {
-}
-
 @media (max-width:320px) {
   .field-slideshow {
     width:300px !important;
+  }
+  .field-slideshow-wrapper {
   }
   img.field-slideshow-image {
     width:300px;
     height:auto;
   }
+}
+
+.field-slideshow-pager {
+  position:inherit !important;
+  margin-bottom:10px;
+  overflow:hidden;
 }
 
 .not-front.page-taxonomy-term #content #block-system-main {
