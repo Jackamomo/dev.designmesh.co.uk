@@ -570,20 +570,46 @@ li.intro-icon-4 {
 /*
  *
  *
- * contact button
+ * big-three home buttons
  *
  *
  */
 
 .region-header .button {
-  float:right;
-  width:85px;
-  height:85px;
 }
 
 .region-header .button a {
-  background:none !important;
+  background-repeat:no-repeat;
   padding:0 !important;
+  float:right;
+  width:85px;
+  height:85px;
+  outline:none;
+  text-indent:-1000em;
+}
+
+.region-header .button a.design {
+  background-image:url('../images/home-big-icon-design-blk.jpg') !important;
+}
+
+.region-header .button a.design:hover {
+  background-image:url('../images/home-big-icon-design.jpg') !important;
+}
+
+.region-header .button a.develop {
+  background-image:url('../images/home-big-icon-develop-blk.jpg') !important;
+}
+
+.region-header .button a.develop:hover {
+  background-image:url('../images/home-big-icon-develop.jpg') !important;
+}
+
+.region-header .button a.freelance {
+  background-image:url('../images/home-big-icon-freelance-blk.jpg') !important;
+}
+
+.region-header .button a.freelance:hover {
+  background-image:url('../images/home-big-icon-freelance.jpg') !important;
 }
 
 /*
