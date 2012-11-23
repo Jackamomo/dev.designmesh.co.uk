@@ -578,6 +578,7 @@ li.intro-icon-4 {
 .region-header .button {
   float:right;
   width:85px;
+  height:85px;
 }
 
 .region-header .button a {
@@ -1876,8 +1877,7 @@ ul.skills {
   margin:0 !important;
   overflow:hidden;
   margin-bottom:.5em !important;
-  padding-bottom:2em !important;
-  border-bottom:1px solid #ccc;
+  padding-bottom:1em !important;
 }
 
 ul.skills li {
@@ -1995,7 +1995,7 @@ ul.skills li p.label {
 }
 
 #content .content ul.skills-container  {
-  padding:2em 0 0;
+  padding-top:1em;
 }
 
 .node .content .skills-container li {
@@ -2013,5 +2013,18 @@ ul.skills li p.label {
 
 .node .content .skills-container p {
   padding:0 1em 1em 0;
-  font-size:.8em;
+  font-size:.9em;
+}
+
+p.show-skills {
+  border-radius: 5px;
+  background-color: #EEE;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom:0 !important;
+}
+
+p.show-skills:hover {
+  background-color:#f38;
+  color:#fff !important;
 }

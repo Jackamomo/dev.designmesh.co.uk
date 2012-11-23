@@ -227,20 +227,20 @@ h2.block-title /* Block title */ {
 
 .jcarousel-skin-default .jcarousel-next-horizontal {
   right:-40px;
-  background:url(../images/big-arrow-right.gif) no-repeat;
+  background:url(../images/big-arrow-right.png) no-repeat;
 }
 
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   left:-40px;
-  background:url(../images/big-arrow-left.gif) no-repeat;
+  background:url(../images/big-arrow-left.png) no-repeat;
 }
 
 .jcarousel-skin-default .jcarousel-next-horizontal:hover {
-  background:url(../images/big-arrow-right-hover.gif) no-repeat;
+  background:url(../images/big-arrow-right-hover.png) no-repeat;
 }
 
 .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
-  background:url(../images/big-arrow-left-hover.gif) no-repeat;
+  background:url(../images/big-arrow-left-hover.png) no-repeat;
 }
 
 ul.jcarousel-view--hero--block {
