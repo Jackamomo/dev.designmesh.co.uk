@@ -183,7 +183,7 @@ h6 {
 }
 
 h4 {
-  margin:0;
+  margin:0 0 .25em;
   font-size:1em;
 }
 
@@ -259,6 +259,7 @@ ol ol ol    { list-style-type: decimal; }
 
 #content .content ul {
   padding-left:10px;
+  padding-bottom:10px;
   position:relative;
 }
 

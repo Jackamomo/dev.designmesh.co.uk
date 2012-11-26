@@ -89,6 +89,11 @@ h2.node-title /* Node title */ {
 }
 
 .node .field-name-body {
+  padding-bottom:1em;
+}
+
+.node .field-name-field-cat {
+  padding-bottom:.25em;
 }
 
 .node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {

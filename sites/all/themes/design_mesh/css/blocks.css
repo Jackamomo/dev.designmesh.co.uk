@@ -190,8 +190,8 @@ h2.block-title /* Block title */ {
   z-index:0;
 }
 
-.jcarousel-skin-default .jcarousel-item:hover {
-  border-color:#fff;
+#block-views-hero-block .jcarousel-skin-default .jcarousel-item img:hover {
+  border-color:#666;
   /* box-shadow: 0px 0px 20px rgba(100, 100, 100, 0.5) */
 }
 
@@ -269,6 +269,10 @@ ul.jcarousel-view--hero--block {
 .jcarousel-view--hero--block li .views-field-field-cat {
   opacity:0;
   z-index:2;
+}
+
+#block-views-hero-block .jcarousel-skin-default .jcarousel-item:hover img {
+  border-color:#e0e0e0;
 }
 
 .view-hero .jcarousel-skin-default .views-field-title a {
